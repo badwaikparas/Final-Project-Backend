@@ -2,7 +2,10 @@
 const http = require("http");
 const app = require("./app");
 const initWebSocket = require("./websocket");
+const dotenv = require("dotenv");
 
+// Load environment variables
+dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 const server = http.createServer(app);
