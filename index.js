@@ -1,7 +1,7 @@
 // server.js
 const http = require("http");
 const app = require("./app");
-const initWebSocket = require("./websocket");
+const initWebSocket = require("./websockets/websocket");
 const dotenv = require("dotenv");
 
 // Load environment variables

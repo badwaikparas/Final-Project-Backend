@@ -2,7 +2,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const locationRouter = require("./routes/locationRoutes");
+const locationRouter = require("./apis/routes/locationRoutes");
 
 const app = express();
 

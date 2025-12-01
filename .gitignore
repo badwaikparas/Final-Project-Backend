@@ -1,3 +1,5 @@
 node_modules
 Dump
 .env
+nodemon.json
+.vscode
